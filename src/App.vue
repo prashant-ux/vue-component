@@ -2,7 +2,9 @@
   <section>
   <header><h1>My friends</h1></header>
   <ul>
-     <friend-contact></friend-contact>
+     <friend-contact 
+     name='prashant tiwari' phone-number='342124344' email-address='prashant.tiwari@essentia.dev' is-favourite='1'></friend-contact>
+     <friend-contact name='john' phone-number='7894565612' email-address='john.loren@gmail.com' is-favourite='0'></friend-contact> 
       </ul>
   </section>
  </template>
