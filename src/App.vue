@@ -1,6 +1,6 @@
  <template>
   <section>
-  <h2>My friends</h2>
+  <header><h1>My friends</h1></header>
   <ul>
      <friend-contact></friend-contact>
       </ul>
