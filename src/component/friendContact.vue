@@ -2,7 +2,7 @@
 <li>
     <header><h2>{{ friend.name }}</h2></header>
     <button @click="toggleDetails">Show Details</button>
-    <ul>
+    <ul v-if="detailsAreVisible">
         <li><strong>Phone:</strong>{{ friend.phone }}</li>
         <li><strong>Email:</strong>{{ friend.email }}</li>
     </ul>
@@ -16,11 +16,10 @@ export default {
             return {
                 detailsAreVisible: false,
                 friend: {
-                     
-                    id: 'me',
-                    name: 'Prashant Tiwari',
-                    phone: '32165442',
-                    email: 'prashant.tiwari@essentia.dev'
+                    id: "me",
+                    name: "Prashant Tiwari",
+                    phone: "32165442",
+                    email: "prashant.tiwari@essentia.dev"
                 
                 },
             };
