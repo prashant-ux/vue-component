@@ -1,6 +1,6 @@
 <template>
 <li>
-    <h2>{{ friend.name }}</h2>
+    <header><h2>{{ friend.name }}</h2></header>
     <button @click="toggleDetails">Show Details</button>
     <ul>
         <li><strong>Phone:</strong>{{ friend.phone }}</li>
